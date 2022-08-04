@@ -1,0 +1,109 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush Dudhani</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <!-- for bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <button class="btn home"><a href="index.html" id="id1">Home</a></button>
+            <button class="btn about"><a href="about.html" id="id2">About Me</a></button>
+            <button class="btn achievements"><a href="achievements.html" id="id3">Achievements</a></button>
+            <button class="btn projects"><a href="projects.html" id="id4">Projects</a></button>
+            <button class="btn contact"><a href="contactme.html" id="id5">Contact Me</a></button>
+        </div>
+
+        <button id="hamb-menu-btn" onclick="openMenu()"  style="display: flex-end;"><i onclick="changeIcon(this)" class="bi bi-list" id="open"></i> </button>
+        <!-- <button id="hamb-close-btn" onclick="openMenu()" style="display: none;"><i class="bi bi-x-lg"></i></button> -->
+        <div class="hamburger">
+            <nav class="hamburger menu" id="hamburger menu">
+                <ul id="menu-box" style="display: none">
+                    <div id="hamb-home"><a href="index.html">Home</a></div>
+                    <div id="hamb-about"><a href="about.html">About Me</a></div>
+                    <div id="hamb-achievements"><a href="achievements.html">Achievements</a></div>
+                    <div id="hamb-projects"><a href="projects.html">Projects</a></div>
+                    <div id="hamb-contact"><a href="contactme.html">Contact Me</a></div>
+                </ul>
+            </nav>
+        </div>
+
+
+    </header>
+
+    
+    <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <div class="area">
+        <div class="social" id="socialid">
+            <div class="fb"><a href="https://www.facebook.com/ayush.dudhani.1" target="__blank"><i
+                        class="bi bi-facebook"></i></a></div>
+            <div class="github"><a href="https://github.com/ayush-dudhani" target="__blank"><i
+                        class="bi bi-github"></i></a></div>
+            <div class="linkedin"><a href="https://www.linkedin.com/in/ayush-dudhani-00b521200/" target="__blank"><i
+                        class="bi bi-linkedin"></i></a></div>
+            <div class="twitter"><a href="https://twitter.com/ayush_dudhani" target="__blank"><i
+                        class="bi bi-twitter"></i></a></div>
+            <div class="instagram"><a href="https://instagram.com/ayush_dudhani" target="__blank"><i
+                        class="bi bi-instagram"></i></a></div>
+        </div>
+        <div class="intro">
+            Hello, I am <br>
+            <div class="name-title">AYUSH DUDHANI</div>
+            Web Developer
+        </div>
+
+        <div class="image-icon">
+            <img src="yellow bg.png" alt="Ayush Dudhani">
+        </div>
+    </div>
+
+    <script>
+        function openMenu() {
+            var menuBox = document.getElementById('menu-box')
+            if (menuBox.style.display == "flex") {
+                menuBox.style.display = "none"
+
+            }
+            else {
+                menuBox.style.display = "flex"
+
+            }
+        }
+
+        let changeIcon = function(icon){
+            icon.classList.toggle('bi-x-lg')
+        }
+    </script>
+
+    <footer>
+        <h1>© Ayush Dudhani</h1>
+    </footer>
+
+
+</body>
+
+</html>
