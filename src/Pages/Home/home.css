@@ -1,0 +1,69 @@
+.intro{
+    color: white;
+    margin: auto;
+    padding-right: 15%;
+    padding-left: 5%;
+    
+}
+.intro .text1{
+    font-size: 27px;
+}
+.intro .text2{
+    font-size: 75px;
+    font-weight: 500;
+}
+.intro .text3{
+    font-size: 40px;
+}
+.intro .text3 > span{
+    color: crimson;
+    font-weight: 500;
+}
+#photo{
+    width: 250px;
+    height: 250px;
+    border-radius: 4px;
+}
+.mainSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 6em 10% auto 10%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    top: 2em;
+    box-shadow: 0 3px 10px #eff19d;
+    border-radius: 2rem;
+}
+.firstPartition{
+    color:#ffd60a;
+    width: 80vw;
+    margin-left:10vw; 
+    margin-right: 10vw;
+}
+
+#downloadCV{
+    border: 2px #ffc300 solid;
+    background-color: #ffd60a;
+    font-weight: 700;  
+    cursor: pointer;
+    margin-top: 5vh;
+    height: 3em;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #c04f2a;
+}
+#downloadCV:active{
+    transform: scale(0.98);
+}
+#downloadCV:hover{
+    opacity: 0.8;
+}
+
+.aboutMe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+}

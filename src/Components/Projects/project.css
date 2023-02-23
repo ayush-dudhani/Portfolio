@@ -1,0 +1,38 @@
+.project-card-container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.project-card{
+    box-shadow: 0 3px 10px #eff19d;
+    border-radius: 2rem;
+    display: flex;
+    margin: 1rem 5%;
+    padding: 2%;
+}
+
+.project-card p{
+    color: white;
+    display: flex;
+    margin: auto 2%;
+}
+.project-card>img{
+    border-radius: 1rem;
+}
+.project-card-subcontainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    padding: 0;
+}
+.heading h1{
+    margin: 0;
+}
