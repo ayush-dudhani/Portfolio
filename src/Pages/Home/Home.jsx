@@ -19,7 +19,7 @@ export default function Home() {
           <div className="text1">My Name is</div>
           <div className="text2">Ayush Dudhani</div>
           <div className="text3">
-            and I'm a &nbsp;
+            and I'm a&nbsp;
             <Typed
               strings={["Learner", "Student", "Proud Indian", "Web Developer"]}
               typeSpeed={100}
@@ -46,6 +46,7 @@ export default function Home() {
             Download CV
           </button>
         </div>
+        
       </div>
     </>
   );
